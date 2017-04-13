@@ -38,3 +38,14 @@ Main priciples of CIF -> JSON conversion
 
 5. Loops, their tags and order are described in sub-array ``loops``
    of datablock.
+
+Example
+-------
+
+Converts CIF file to JSON:
+
+``$> cif2json ``[test.cif](test.cif)`` > ``[test.json](test.json)
+
+Pretty-prints converted JSON:
+
+``$> json_pp < ``[test.json](test.json)`` > ``[test-pp.json](test-pp.json)
