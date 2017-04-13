@@ -22,7 +22,7 @@ data_example
     
   _dataname.chapter   1.2
   _dataname.verylong
-;<whatever>\
+;<whatever>\\
 <whatever>This contains one very long line \
 <whatever>that we wrap around using the \
 <whatever>excellent CIF2 line expansion protocol.

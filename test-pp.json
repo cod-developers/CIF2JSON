@@ -138,7 +138,7 @@
                "."
             ],
             "_dataname.verylong" : [
-               "This contains one very long line \\\nthat we wrap around using the \\\nexcellent CIF2 line expansion protocol."
+               "This contains one very long line that we wrap around using the excellent CIF2 line expansion protocol."
             ],
             "_dataname.chapter" : [
                "1.2"
