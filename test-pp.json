@@ -1,0 +1,335 @@
+[
+   {
+      "version" : "1.1",
+      "data" : {
+         "types" : {
+            "_y" : [
+               "FLOAT",
+               "FLOAT",
+               "FLOAT",
+               "UQSTRING"
+            ],
+            "_dataname.table" : [
+               {
+                  "save" : "INT",
+                  "mode" : "UQSTRING",
+                  "url" : "DQSTRING"
+               }
+            ],
+            "_flight.bearing" : [
+               "FLOAT"
+            ],
+            "_flight.vector" : [
+               [
+                  "FLOAT",
+                  "FLOAT",
+                  "FLOAT"
+               ]
+            ],
+            "_z" : [
+               [
+                  "UQSTRING",
+                  "UQSTRING",
+                  "UQSTRING",
+                  "UQSTRING"
+               ],
+               [
+                  "UQSTRING",
+                  "UQSTRING",
+                  "UQSTRING",
+                  "UQSTRING"
+               ],
+               [
+                  "UQSTRING",
+                  "UQSTRING",
+                  "UQSTRING",
+                  "UQSTRING"
+               ],
+               "UQSTRING"
+            ],
+            "_dataname.verylong" : [
+               "TEXTFIELD"
+            ],
+            "_dataname.chapter" : [
+               "FLOAT"
+            ],
+            "_q.key" : [
+               "UQSTRING",
+               "UQSTRING"
+            ],
+            "_q.access" : [
+               {
+                  "k" : "INT",
+                  "s" : "INT"
+               },
+               {
+                  "k" : "INT",
+                  "s" : "INT"
+               }
+            ],
+            "_x.id" : [
+               "INT",
+               "INT",
+               "INT",
+               "INT"
+            ],
+            "_dataname.a" : [
+               "UQSTRING"
+            ],
+            "_alpha" : [
+               "FLOAT",
+               "FLOAT",
+               "FLOAT",
+               "UQSTRING"
+            ]
+         },
+         "inloop" : {
+            "_z" : 0,
+            "_y" : 0,
+            "_q.key" : 1,
+            "_q.access" : 1,
+            "_x.id" : 0,
+            "_alpha" : 0
+         },
+         "name" : "example",
+         "values" : {
+            "_y" : [
+               "4.23(14)",
+               "11.9(3)",
+               "0.2(4)",
+               "."
+            ],
+            "_dataname.table" : [
+               {
+                  "save" : "222",
+                  "mode" : "full",
+                  "url" : "http:/bit.ly/2"
+               }
+            ],
+            "_flight.bearing" : [
+               "221.45(7)"
+            ],
+            "_flight.vector" : [
+               [
+                  "0.25",
+                  "1.2(15)",
+                  "-0.01(12)"
+               ]
+            ],
+            "_z" : [
+               [
+                  "a",
+                  "a",
+                  "a",
+                  "c"
+               ],
+               [
+                  "c",
+                  "a",
+                  "c",
+                  "a"
+               ],
+               [
+                  "b",
+                  "a",
+                  "a",
+                  "a"
+               ],
+               "."
+            ],
+            "_dataname.verylong" : [
+               "This contains one very long line \\\nthat we wrap around using the \\\nexcellent CIF2 line expansion protocol."
+            ],
+            "_dataname.chapter" : [
+               "1.2"
+            ],
+            "_q.key" : [
+               "xxp",
+               "yyx"
+            ],
+            "_q.access" : [
+               {
+                  "k" : "-5",
+                  "s" : "2"
+               },
+               {
+                  "k" : "-2",
+                  "s" : "1"
+               }
+            ],
+            "_x.id" : [
+               "1",
+               "2",
+               "3",
+               "4"
+            ],
+            "_dataname.a" : [
+               "syzygy"
+            ],
+            "_alpha" : [
+               "1.5e-6(2)",
+               "2.1e-6(11)",
+               "0.0051(4)",
+               "?"
+            ]
+         },
+         "tags" : [
+            "_dataname.a",
+            "_flight.vector",
+            "_dataname.table",
+            "_flight.bearing",
+            "_x.id",
+            "_y",
+            "_z",
+            "_alpha",
+            "_q.key",
+            "_q.access",
+            "_dataname.chapter",
+            "_dataname.verylong"
+         ],
+         "loops" : [
+            [
+               "_x.id",
+               "_y",
+               "_z",
+               "_alpha"
+            ],
+            [
+               "_q.key",
+               "_q.access"
+            ]
+         ],
+         "save_blocks" : [],
+         "cifversion" : {
+            "minor" : 0,
+            "major" : 2
+         },
+         "precisions" : {
+            "_y" : [
+               0.14,
+               0.3,
+               0.4,
+               null
+            ],
+            "_dataname.table" : [
+               {
+                  "save" : null,
+                  "mode" : null,
+                  "url" : null
+               }
+            ],
+            "_flight.bearing" : [
+               0.07
+            ],
+            "_flight.vector" : [
+               [
+                  null,
+                  1.5,
+                  0.12
+               ]
+            ],
+            "_z" : [
+               null,
+               null,
+               null,
+               null
+            ],
+            "_q.access" : [
+               {
+                  "k" : null,
+                  "s" : null
+               },
+               {
+                  "k" : null,
+                  "s" : null
+               }
+            ],
+            "_x.id" : [
+               null,
+               null,
+               null,
+               null
+            ],
+            "_alpha" : [
+               2e-07,
+               1.1e-06,
+               0.0004,
+               null
+            ]
+         }
+      }
+   },
+   {
+      "version" : "1.1",
+      "data" : {
+         "types" : {
+            "_abc" : [
+               "UQSTRING"
+            ]
+         },
+         "inloop" : {},
+         "name" : "another_block",
+         "values" : {
+            "_abc" : [
+               "xyz"
+            ]
+         },
+         "tags" : [
+            "_abc"
+         ],
+         "loops" : [],
+         "save_blocks" : [
+            {
+               "save_blocks" : [],
+               "types" : {
+                  "_abc" : [
+                     "UQSTRING"
+                  ],
+                  "_r.fruit" : [
+                     "UQSTRING",
+                     "UQSTRING"
+                  ],
+                  "_r.colour" : [
+                     "UQSTRING",
+                     "UQSTRING"
+                  ]
+               },
+               "inloop" : {
+                  "_r.fruit" : 0,
+                  "_r.colour" : 0
+               },
+               "name" : "internal",
+               "values" : {
+                  "_abc" : [
+                     "yzx"
+                  ],
+                  "_r.fruit" : [
+                     "apple",
+                     "pear"
+                  ],
+                  "_r.colour" : [
+                     "red",
+                     "green"
+                  ]
+               },
+               "tags" : [
+                  "_abc",
+                  "_r.fruit",
+                  "_r.colour"
+               ],
+               "loops" : [
+                  [
+                     "_r.fruit",
+                     "_r.colour"
+                  ]
+               ]
+            }
+         ],
+         "cifversion" : {
+            "minor" : 0,
+            "major" : 2
+         },
+         "precisions" : {}
+      }
+   }
+]
