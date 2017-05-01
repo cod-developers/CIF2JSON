@@ -12,6 +12,9 @@ representation (described in
 [Merkys et al., 2016](http://dx.doi.org/10.1107/S1600576715022396))
 for some time and though it includes some redundant information, it
 has proven itself useful in automatically handling CIFs at the COD.
+Another,
+[low redundancy method](https://github.com/COMCIFS/comcifs.github.io/blob/master/cif-json.md)
+was also proposed.
 
 Main priciples of CIF -> JSON conversion
 ----------------------------------------
