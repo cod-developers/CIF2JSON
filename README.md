@@ -45,10 +45,10 @@ Main priciples of CIF -> JSON conversion
 Example
 -------
 
-Converts CIF file to JSON:
+Converts CIF file ([test.cif](test.cif)) to JSON ([test.json](test.json)):
 
-``$> cif2json ``[test.cif](test.cif)`` > ``[test.json](test.json)
+    $ cif2json test.cif > test.json
 
-Pretty-prints converted JSON:
+Pretty-prints converted JSON to [test-pp.cif](test-pp.cif):
 
-``$> json_pp < ``[test.json](test.json)`` > ``[test-pp.json](test-pp.json)
+    $ json_pp < test.json > test-pp.json
