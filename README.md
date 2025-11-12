@@ -21,21 +21,21 @@ Main priciples of CIF -> JSON conversion
 
 1. Top level container is an array instead of an object, thus, order
    of CIF datablocks (represented as objects) in an input file is
-   retained; uniqueness of datablock names are not enforced;
+   retained; uniqueness of datablock names is not enforced;
 
 2. Data items are keys of ``values`` sub-object, thus uniqueness of
-   data names within a data block / save frame are enforced;
+   data names within a data block/save frame is enforced;
 
 3. Values are *always* represented as strings exactly as given in CIF
-   file, without losing any precisions;
+   file, without losing precision;
 
 3. Types of values are stored alongside in a sub-object ``types`` of
-   datablock. Thus, ``?`` value of type 'unquoted string' is easily
+   datablock. Thus, ``?`` value of type 'unquoted string' is
    distinguishable from ``?`` value of type 'quoted string' or
-   'textfield', reducing the need of methods to escape ``?`` and ``.``
+   'textfield', reducing the need for methods to escape ``?`` and ``.``
    values with special meanings;
 
-4. Values of a tag are always put in an array; there is a sub-object
+4. Values of a tag are always stored as an array; there is a sub-object
    ``inloop`` of datablock, which tells whether a tag is looped or
    not;
 
